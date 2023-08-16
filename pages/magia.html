@@ -1,0 +1,3676 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/magia.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="../ico/dnd_icon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script src="../js/magia.js"></script>
+    <title>D&D5 - Magia</title>
+</head>
+
+<body>
+    <header class="header" id="top">
+        <img src="../img/dnd-logo.png">
+    </header>
+    <div class="container-xxl">
+
+        <a class="boton_top" href="./magia.html#top">
+            <img src="" alt="">
+        </a>
+
+        <h2>Lista de conjuros</h2>
+        <hr class="under-title">
+
+        <table class="table table-striped" id="magia">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Escuela</th>
+                    <th>Nivel</th>
+                    <th>Coste</th>
+                    <th>Alcance</th>
+                    <th>Componentes</th>
+                    <th>Duración</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="#abrir">Abrir</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#acelerar">Acelerar</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#adivinacion">Adivinación</a>
+                    </td>
+                    <td>Adivinación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>Lanzador</td>
+                    <td>V S M (25 po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="agrandar-reducir">Agrandar/Reducir</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/alarma/">Alarma</a></td>
+                    <td>Abjuración</td>
+                    <td>1</td>
+                    <td>1 minuto</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/aliado-planar/">Aliado
+                            Planar</a></td>
+                    <td>Conjuración</td>
+                    <td>6</td>
+                    <td>10 minutos</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/animar-objetos/">Animar Objetos</a></td>
+                    <td>Transmutación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/antipatia-simpatia/"">Antipatía/Simpatía</a></td><td class="
+                            column-2">Encantamiento</td>
+                    <td>8</td>
+                    <td>1 hora</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>10 días</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/apacible-descanso/">Apacible Descanso</a>
+                    </td>
+                    <td>Nigromancia</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>10 días</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/arma-espiritual/">Arma
+                            Espiritual</a></td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>Acción adicional</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/arma-magica/">Arma
+                            Mágica</a></td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>Acción adicional</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a
+                            href="https://www.enciclopediadnd.es/reglas/magia/armadura-de-mago/">Armadura de Mago</a>
+                    </td>
+                    <td>Abjuración</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/asesino-fantasmal/">Asesino Fantasmal</a>
+                    </td>
+                    <td>Ilusión</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/asolar/">Asolar</a></td>
+                    <td>Nigromancia</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/atravesar-muro/">Atravesar
+                            Muro</a></td>
+                    <td>Transmutación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/augurio/">Augurio</a></td>
+                    <td>Adivinación</td>
+                    <td>2</td>
+                    <td>1 minuto</td>
+                    <td>Personal</td>
+                    <td>V S M (25po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/aura-magica-del-arcano/">Aura Mágica del
+                            Arcano</a></td>
+                    <td>Ilusión</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/aura-sagrada/">Aura
+                            Sagrada</a></td>
+                    <td>Abjuración</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M (1000po)</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/auxilio/">Auxilio</a></td>
+                    <td>Conjuración</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/baile-irresistible/">Baile
+                            Irresistible</a></td>
+                    <td>Encantamiento</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/barrera-antivida/">Barrera
+                            Antivida</a></td>
+                    <td>Abjuración</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a
+                            href="https://www.enciclopediadnd.es/reglas/magia/barrera-de-cuchillas/">Barrera de
+                            Cuchillas</a></td>
+                    <td>Evocación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>90 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/bendecir/">Bendecir</a>
+                    </td>
+                    <td>Encantamiento</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/boca-magica/">Boca
+                            Mágica</a></td>
+                    <td>Ilusión</td>
+                    <td>2</td>
+                    <td>1 minuto</td>
+                    <td>30 pies</td>
+                    <td>V S M (10po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/bola-de-fuego/">Bola de
+                            Fuego</a></td>
+                    <td>Evocación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a
+                            href="https://www.enciclopediadnd.es/reglas/magia/bola-de-fuego-de-explosion-retardada/">Bola
+                            de Fuego de Explosión Retardada</a></td>
+                    <td>Evocación</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/buenas-bayas/">Buenas
+                            Bayas</a></td>
+                    <td>Transmutación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/burla-cruel/">Burla
+                            Cruel</a></td>
+                    <td>Encantamiento</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/caer-como-una-pluma/">Caer
+                            como una Pluma</a></td>
+                    <td>Transmutación</td>
+                    <td>1</td>
+                    <td>Reacción</td>
+                    <td>60 pies</td>
+                    <td>V M</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/calentar-metal/">Calentar
+                            Metal</a></td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/calmar-emociones/">Calmar
+                            Emociones</a></td>
+                    <td>Encantamiento</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/cambiar-de-forma/">Cambiar
+                            de Forma</a></td>
+                    <td>Transmutación</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M (1500po)</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a
+                            href="https://www.enciclopediadnd.es/reglas/magia/caminar-con-el-viento/">Caminar con el
+                            Viento</a></td>
+                    <td>Transmutación</td>
+                    <td>6</td>
+                    <td>1 minuto</td>
+                    <td>30 pies</td>
+                    <td>V S M </td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a
+                            href="https://www.enciclopediadnd.es/reglas/magia/caminar-por-el-agua/">Caminar por el
+                            Agua</a></td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/campo-antimagia/">Campo
+                            Antimagia</a></td>
+                    <td>Abjuración</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/cautivar/">Cautivar</a>
+                    </td>
+                    <td>Encantamiento</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/cautiverio/">Cautiverio</a></td>
+                    <td>Abjuración</td>
+                    <td>9</td>
+                    <td>1 minuto</td>
+                    <td>30 pies</td>
+                    <td>V S M (500po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/ceguera-sordera/">Ceguera/Sordera</a></td>
+                    <td>Nigromancia</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/cerradura-arcana/">Cerradura Arcana</a>
+                    </td>
+                    <td>Abjuración</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M (25po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/circulo-de-muerte/">Círculo de Muerte</a>
+                    </td>
+                    <td>Nigromancia</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S M (500po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/circulo-de-teletransporte/">Círculo de
+                            Teletransporte</a></td>
+                    <td>Conjuración</td>
+                    <td>5</td>
+                    <td>1 minuto</td>
+                    <td>10 pies</td>
+                    <td>V M (50po)</td>
+                    <td>1 ronda</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/circulo-magico/">Círculo
+                            Mágico</a></td>
+                    <td>Abjuración</td>
+                    <td>3</td>
+                    <td>1 minuto</td>
+                    <td>10 pies</td>
+                    <td>V S M (100po)</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/clarividencia/">Clarividencia</a></td>
+                    <td>Adivinación</td>
+                    <td>3</td>
+                    <td>10 minutos</td>
+                    <td>1 milla</td>
+                    <td>V S M (100po)</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/clonar/">Clonar</a></td>
+                    <td>Nigromancia</td>
+                    <td>8</td>
+                    <td>1 hora</td>
+                    <td>Toque</td>
+                    <td>V S M (1000po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/cofre-secreto/">Cofre
+                            Secreto</a></td>
+                    <td>Conjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M (5000po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/comprension-idiomatica/">Comprensión
+                            Idiomática</a></td>
+                    <td>Adivinación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/compulsion/">Compulsión</a></td>
+                    <td>Encantamiento</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/comunion/">Comunión</a>
+                    </td>
+                    <td>Adivinación</td>
+                    <td>5</td>
+                    <td>1 minuto</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/comunion-con-la-naturaleza/">Comunión con
+                            la Naturaleza</a></td>
+                    <td>Adivinación</td>
+                    <td>5</td>
+                    <td>1 minuto</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/confusion/">Confusión</a>
+                    </td>
+                    <td>Encantamiento</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>90 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/conjurar-animales/">Conjurar Animales</a>
+                    </td>
+                    <td>Conjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/conjurar-celestial/">Conjurar
+                            Celestial</a></td>
+                    <td>Conjuración</td>
+                    <td>7</td>
+                    <td>1 minuto</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/conjurar-elemental/">Conjurar
+                            Elemental</a></td>
+                    <td>Conjuración</td>
+                    <td>5</td>
+                    <td>1 minuto</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/conjurar-elementales-menores/">Conjurar
+                            Elementales Menores</a></td>
+                    <td>Conjuración</td>
+                    <td>4</td>
+                    <td>1 minuto</td>
+                    <td>90 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/conjurar-fey/">Conjurar
+                            Fey</a></td>
+                    <td>Conjuración</td>
+                    <td>6</td>
+                    <td>1 minuto</td>
+                    <td>90 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/conjurar-seres-de-los-bosques/">Conjurar
+                            Seres de los Bosques</a></td>
+                    <td>Conjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/cono-de-frio/">Cono de
+                            Frío</a></td>
+                    <td>Evocación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/conocimiento-de-leyendas/">Conocimiento de
+                            Leyendas</a></td>
+                    <td>Adivinación</td>
+                    <td>5</td>
+                    <td>10 minutos</td>
+                    <td>Personal</td>
+                    <td>V S M (450po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/conocimiento-druidico/">Conocimiento
+                            Druídico</a></td>
+                    <td>Transmutación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/contactar-con-otro-plano/">Contactar con
+                            Otro Plano</a></td>
+                    <td>Adivinación</td>
+                    <td>5</td>
+                    <td>1 minuto</td>
+                    <td>Personal</td>
+                    <td>V</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/contacto-electrizante/">Contacto
+                            Electrizante</a></td>
+                    <td>Evocación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/contagio/">Contagio</a>
+                    </td>
+                    <td>Nigromancia</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>7 días</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/contingencia/">Contingencia</a></td>
+                    <td>Evocación</td>
+                    <td>6</td>
+                    <td>10 minutos</td>
+                    <td>Personal</td>
+                    <td>V S M (1500po)</td>
+                    <td>10 días</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/contorno-borroso/">Contorno Borroso</a>
+                    </td>
+                    <td>Ilusión</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/contraconjuro/">Contraconjuro</a></td>
+                    <td>Abjuración</td>
+                    <td>3</td>
+                    <td>Reacción</td>
+                    <td>60 pies</td>
+                    <td>S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/controlar-el-clima/">Controlar el
+                            Clima</a></td>
+                    <td>Transmutación</td>
+                    <td>8</td>
+                    <td>10 minutos</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/controlar-las-aguas/">Controlar las
+                            Aguas</a></td>
+                    <td>Transmutación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>300 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/convocaciones-instantaneas/">Convocaciones
+                            Instantáneas</a></td>
+                    <td>Conjuración</td>
+                    <td>6</td>
+                    <td>1 minuto</td>
+                    <td>Toque</td>
+                    <td>V S M (1000po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/corcel-fantasma/">Corcel
+                            Fantasma</a></td>
+                    <td>Ilusión</td>
+                    <td>3</td>
+                    <td>1 minuto</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/creacion/">Creación</a>
+                    </td>
+                    <td>Ilusión</td>
+                    <td>5</td>
+                    <td>1 minuto</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Especial</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/crear-comida-y-bebida/">Crear Comida y
+                            Bebida</a></td>
+                    <td>Conjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/crear-muertos-vivientes/">Crear Muertos
+                            Vivientes</a></td>
+                    <td>Nigromancia</td>
+                    <td>6</td>
+                    <td>1 minuto</td>
+                    <td>10 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/crear-o-destruir-agua/">Crear o Destruir
+                            Agua</a></td>
+                    <td>Transmutación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/crecimiento-de-espinas/">Crecimiento de
+                            Espinas</a></td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/crecimiento-vegetal/">Crecimiento
+                            Vegetal</a></td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/cubiculo/">Cubículo</a>
+                    </td>
+                    <td>Evocación</td>
+                    <td>3</td>
+                    <td>1 minuto</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/cuchichear-mensaje/">Cuchichear
+                            Mensaje</a></td>
+                    <td>Transmutación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>1 ronda</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/curar-heridas/">Curar
+                            Heridas</a></td>
+                    <td>Evocación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/curar-heridas-en-grupo/">Curar Heridas en
+                            Grupo</a></td>
+                    <td>Evocación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/custodia-contra-la-muerte/">Custodia
+                            Contra la Muerte</a></td>
+                    <td>Abjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/danar/">Dañar</a></td>
+                    <td>Nigromancia</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/de-la-carne-a-la-piedra/">De la Carne a la
+                            Piedra</a></td>
+                    <td>Transmutación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/debilidad-mental/">Debilidad Mental</a>
+                    </td>
+                    <td>Encantamiento</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/dedo-de-la-muerte/">Dedo
+                            de la Muerte</a></td>
+                    <td>Nigromancia</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/deseo/">Deseo</a></td>
+                    <td>Conjuración</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/desintegrar/">Desintegrar</a></td>
+                    <td>Transmutación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/desplazamiento-de-plano/">Desplazamiento
+                            de Plano</a></td>
+                    <td>Conjuración</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M (250po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/destierro/">Destierro</a>
+                    </td>
+                    <td>Abjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/detectar-el-mal-y-el-bien/">Detectar el
+                            Mal y el Bien</a></td>
+                    <td>Adivinación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/detectar-magia/">Detectar
+                            Magia</a></td>
+                    <td>Adivinación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/detectar-pensamientos/">Detectar
+                            Pensamientos</a></td>
+                    <td>Adivinación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/detectar-veneno-y-enfermedad/">Detectar
+                            Veneno y Enfermedad</a></td>
+                    <td>Adivinación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/detener-el-tiempo/">Detener el Tiempo</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/disco-flotante/">Disco
+                            Flotante</a></td>
+                    <td>Conjuración</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/disfrazarse/">Disfrazarse</a></td>
+                    <td>Ilusión</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/disipar-el-mal-y-el-bien/">Disipar el Mal
+                            y el Bien</a></td>
+                    <td>Abjuración</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/disipar-la-agonia/">Disipar la Agonía</a>
+                    </td>
+                    <td>Nigromancia</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/disipar-magia/">Disipar
+                            Magia</a></td>
+                    <td>Abjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/doble-enganoso/">Doble
+                            Engañoso</a></td>
+                    <td>Ilusión</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/dominar-bestia/">Dominar
+                            Bestia</a></td>
+                    <td>Encantamiento</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/dominar-monstruo/">Dominar
+                            Monstruo</a></td>
+                    <td>Encantamiento</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/dominar-persona/">Dominar
+                            Persona</a></td>
+                    <td>Encantamiento</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/don-de-lenguas/">Don de
+                            Lenguas</a></td>
+                    <td>Adivinación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/dormir/">Dormir</a></td>
+                    <td>Encantamiento</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>90 pies</td>
+                    <td>V S M</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/dotar-de-consciencia/">Dotar de
+                            Consciencia</a></td>
+                    <td>Transmutación</td>
+                    <td>5</td>
+                    <td>8 horas</td>
+                    <td>Toque</td>
+                    <td>V S M (1000po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/elaborar/">Elaborar</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>4</td>
+                    <td>10 minutos</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/encantar-animal/">Encantar
+                            Animal</a></td>
+                    <td>Encantamiento</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/encontrar-familiar/">Encontrar
+                            Familiar</a></td>
+                    <td>Conjuración</td>
+                    <td>1</td>
+                    <td>1 hora</td>
+                    <td>10 pies</td>
+                    <td>V S M (10po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/encontrar-la-senda/">Encontrar la
+                            Senda</a></td>
+                    <td>Adivinación</td>
+                    <td>6</td>
+                    <td>1 minuto</td>
+                    <td>Personal</td>
+                    <td>V S M (100po)</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/encontrar-montura/">Encontrar Montura</a>
+                    </td>
+                    <td>Conjuración</td>
+                    <td>2</td>
+                    <td>10 minutos</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/encontrar-trampas/">Encontrar Trampas</a>
+                    </td>
+                    <td>Adivinación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/enmaranar/">Enmarañar</a>
+                    </td>
+                    <td>Conjuración</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>90 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/escalada-de-arana/">Escalada de Araña</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/escritura-ilusoria/">Escritura
+                            Ilusoria</a></td>
+                    <td>Ilusión</td>
+                    <td>1</td>
+                    <td>1 minuto</td>
+                    <td>Toque</td>
+                    <td>S M (10po)</td>
+                    <td>10 días</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/escudo/">Escudo</a></td>
+                    <td>Abjuración</td>
+                    <td>1</td>
+                    <td>Reacción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>1 ronda</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/escudo-de-fuego/">Escudo
+                            de Fuego</a></td>
+                    <td>Evocación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>10 minutos</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/escudo-de-la-fe/">Escudo
+                            de la Fe</a></td>
+                    <td>Abjuración</td>
+                    <td>1</td>
+                    <td>Acción Adicional </td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/escudrinar/">Escudriñar</a></td>
+                    <td>Adivinación</td>
+                    <td>5</td>
+                    <td>10 minutos</td>
+                    <td>Personal</td>
+                    <td>V S M (1000po)</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/esfera-congelante/">Esfera
+                            Congelante</a></td>
+                    <td>Evocación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>300 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/esfera-elastica/">Esfera
+                            Elástica</a></td>
+                    <td>Evocación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/esfera-flamigera/">Esfera
+                            Flamígera</a></td>
+                    <td>Conjuración</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/espada-arcana/">Espada
+                            Arcana</a></td>
+                    <td>Evocación</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M (250po)</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/espejismo-arcano/">Espejismo Arcano</a>
+                    </td>
+                    <td>Ilusión</td>
+                    <td>7</td>
+                    <td>10 minutos</td>
+                    <td>Vista</td>
+                    <td>V S</td>
+                    <td>10 días</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/espiritus-guardianes/">Espíritus
+                            Guardianes</a></td>
+                    <td>Conjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/estallar/">Estallar</a>
+                    </td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/etereidad/">Etereidad</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>Personal </td>
+                    <td>V S</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/explosion-sobrenatural/">Explosión
+                            Sobrenatural</a></td>
+                    <td>Evocación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/explosion-solar/">Explosión Solar</a></td>
+                    <td>Evocación</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/falsa-vida/">Falsa
+                            Vida</a></td>
+                    <td>Nigromancia</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/faro-de-esperanza/">Faro
+                            de Esperanza</a></td>
+                    <td>Abjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/favor-divino/">Favor
+                            Divino</a></td>
+                    <td>Evocación</td>
+                    <td>1</td>
+                    <td>Acción Adicional </td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/festin-de-los-heroes/">Festín de los
+                            Héroes</a></td>
+                    <td>Conjuración</td>
+                    <td>6</td>
+                    <td>10 minutos</td>
+                    <td>30 pies</td>
+                    <td>V S M (1000po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/filo-flamigero/">Filo
+                            Flamígero</a></td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>Acción Adicional</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/flamear/">Flamear</a></td>
+                    <td>Conjuración</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>10 minutos</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/flecha-acida/">Flecha
+                            Ácida</a></td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>90 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/forma-gaseosa/">Forma
+                            Gaseosa</a></td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/formas-de-animal/">Formas
+                            de Animal</a></td>
+                    <td>Transmutación</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/fuego-feerico/">Fuego
+                            Feérico</a></td>
+                    <td>Evocación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/fundirse-con-la-piedra/">Fundirse con la
+                            Piedra</a></td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/garrote/">Garrote</a></td>
+                    <td>Transmutación</td>
+                    <td>0</td>
+                    <td>Acción Adicional</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/geas/">Geas</a></td>
+                    <td>Encantamiento</td>
+                    <td>5</td>
+                    <td>1 minuto</td>
+                    <td>60 pies</td>
+                    <td>V</td>
+                    <td>30 días</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/glifo-custodio/">Glifo
+                            Custodio</a></td>
+                    <td>Abjuración</td>
+                    <td>3</td>
+                    <td>1 hora</td>
+                    <td>Toque</td>
+                    <td>V S M (200po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/globo-de-invulnerabilidad/">Globo de
+                            Invulnerabilidad</a></td>
+                    <td>Abjuración</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/golpe-de-llamas/">Golpe de
+                            Llamas</a></td>
+                    <td>Evocación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/golpe-de-rayo/">Golpe de
+                            Rayo</a></td>
+                    <td>Evocación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/grasa/">Grasa</a></td>
+                    <td>Conjuración</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/guardas-y-custodias/">Guardas y
+                            Custodias</a></td>
+                    <td>Abjuración</td>
+                    <td>6</td>
+                    <td>10 minutos</td>
+                    <td>Toque</td>
+                    <td>V S M (10po)</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/guardian-de-la-fe/">Guardián de la Fe</a>
+                    </td>
+                    <td>Conjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/hablar-con-las-plantas/">Hablar con las
+                            Plantas</a></td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>10 minutos</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/hablar-con-los-animales/">Hablar con los
+                            Animales</a></td>
+                    <td>Adivinación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>10 minutos</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/hablar-con-los-muertos/">Hablar con los
+                            Muertos</a></td>
+                    <td>Nigromancia</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>10 pies</td>
+                    <td>V S M</td>
+                    <td>10 minutos</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/hechizar-persona/">Hechizar Persona</a>
+                    </td>
+                    <td>Encantamiento</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/herida-de-marca/">Herida
+                            de Marca</a></td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>Acción Adicional</td>
+                    <td>Personal </td>
+                    <td>V</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/heroismo/">Heroísmo</a>
+                    </td>
+                    <td>Encantamiento</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/identificar/">Identificar</a></td>
+                    <td>Adivinación</td>
+                    <td>1</td>
+                    <td>1 minuto</td>
+                    <td>Toque</td>
+                    <td>V S M (100po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/ilusion-menor/">Ilusión
+                            Menor</a></td>
+                    <td>Ilusión</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>S M</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/ilusion-programada/">Ilusión
+                            Programada</a></td>
+                    <td>Ilusión</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M (25po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/imagen-mayor/">Imagen
+                            Mayor</a></td>
+                    <td>Ilusión</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/imagen-reflejada/">Imagen
+                            Reflejada</a></td>
+                    <td>Ilusión</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/imagen-silenciosa/">Imagen
+                            Silenciosa</a></td>
+                    <td>Ilusión</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/impacto-verdadero/">Impacto Verdadero</a>
+                    </td>
+                    <td>Adivinación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/indetectabilidad/">Indetectabilidad</a>
+                    </td>
+                    <td>Abjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M (25po)</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/infligir-heridas/">Infligir Heridas</a>
+                    </td>
+                    <td>Nigromancia</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S </td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/inmovilizar-monstruo/">Inmovilizar
+                            Monstruo</a></td>
+                    <td>Encantamiento</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>90 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/inmovilizar-persona/">Inmovilizar
+                            Persona</a></td>
+                    <td>Encantamiento</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/insecto-gigante/">Insecto
+                            Gigante</a></td>
+                    <td>Transmutación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/interdiccion/">Interdicción</a></td>
+                    <td>Abjuración</td>
+                    <td>6</td>
+                    <td>10 minutos</td>
+                    <td>Toque</td>
+                    <td>V S M (1000po)</td>
+                    <td>1 día</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/intermitencia/">Intermitencia</a></td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/invertir-gravedad/">Invertir Gravedad</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>100 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/invisibilidad/">Invisibilidad</a></td>
+                    <td>Ilusión</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/invisibilidad-mayor/">Invisibilidad
+                            Mayor</a></td>
+                    <td>Ilusión</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/jaula-de-fuerza/">Jaula de
+                            Fuerza</a></td>
+                    <td>Evocación</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>100 pies</td>
+                    <td>V S M (1500po)</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/laberinto/">Laberinto</a>
+                    </td>
+                    <td>Conjuración</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/labia/">Labia</a></td>
+                    <td>Transmutación</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/lanzar-maldicion/">Lanzar
+                            Maldición</a></td>
+                    <td>Nigromancia</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/levitar/">Levitar</a></td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/libertad-de-movimiento/">Libertad de
+                            Movimiento</a></td>
+                    <td>Abjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/ligadura-de-los-planos/">Ligadura de los
+                            Planos</a></td>
+                    <td>Abjuración</td>
+                    <td>5</td>
+                    <td>1 hora</td>
+                    <td>60 pies</td>
+                    <td>V S M (1000po)</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/llama-continua/">Llama
+                            Continua</a></td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M (50po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/llama-sagrada/">Llama
+                            Sagrada</a></td>
+                    <td>Evocación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/llamar-al-relampago/">Llamar al
+                            Relámpago</a></td>
+                    <td>Conjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/localizar-animales-o-plantas/">Localizar
+                            Animales o Plantas</a></td>
+                    <td>Adivinación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Personal </td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/localizar-criatura/">Localizar
+                            Criatura</a></td>
+                    <td>Adivinación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/localizar-objeto/">Localizar Objeto</a>
+                    </td>
+                    <td>Adivinación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/luces-danzantes/">Luces
+                            Danzantes</a></td>
+                    <td>Evocación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/luz/">Luz</a></td>
+                    <td>Evocación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/luz-del-dia/">Luz del
+                            Día</a></td>
+                    <td>Evocación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/magnifica-mansion/">Magnífica Mansión</a>
+                    </td>
+                    <td>Conjuración</td>
+                    <td>7</td>
+                    <td>1 minuto</td>
+                    <td>300 pies</td>
+                    <td>V S M (15po)</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/mano-arcana/">Mano
+                            Arcana</a></td>
+                    <td>Evocación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/mano-del-mago/">Mano del
+                            Mago</a></td>
+                    <td>Conjuración</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/manos-ardientes/">Manos
+                            Ardientes</a></td>
+                    <td>Evocación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/marca-del-cazador/">Marca
+                            del Cazador</a></td>
+                    <td>Adivinación</td>
+                    <td>1</td>
+                    <td>Acción Adicional</td>
+                    <td>90 pies</td>
+                    <td>V</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/mastin-fiel/">Mastín
+                            Fiel</a></td>
+                    <td>Conjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/mejorar-caracteristica/">Mejorar
+                            Característica</a></td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/mensajero-animal/">Mensajero Animal</a>
+                    </td>
+                    <td>Encantamiento</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/mente-en-blanco/">Mente en
+                            Blanco</a></td>
+                    <td>Abjuración</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/miedo/">Miedo</a></td>
+                    <td>Ilusión</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/mirada-penetrante/">Mirada
+                            Penetrante</a></td>
+                    <td>Nigromancia</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/modificar-recuerdo/">Modificar
+                            Recuerdo</a></td>
+                    <td>Encantamiento</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/muro-de-espinas/">Muro de
+                            Espinas</a></td>
+                    <td>Conjuración</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/muro-de-fuego/">Muro de
+                            Fuego</a></td>
+                    <td>Evocación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/muro-de-fuerza/">Muro de
+                            Fuerza</a></td>
+                    <td>Evocación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración </td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/muro-de-hielo/">Muro de
+                            Hielo</a></td>
+                    <td>Evocación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/muro-de-piedra/">Muro de
+                            Piedra</a></td>
+                    <td>Evocación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/muro-de-viento/">Muro de
+                            Viento</a></td>
+                    <td>Evocación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/muro-prismatico/">Muro
+                            Prismático</a></td>
+                    <td>Abjuración</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>10 minutos</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/nube-aniquiladora/">Nube
+                            Aniquiladora</a></td>
+                    <td>Conjuración</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/nube-apestosa/">Nube
+                            Apestosa</a></td>
+                    <td>Conjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>90 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/nube-brumosa/">Nube
+                            Brumosa</a></td>
+                    <td>Conjuración</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/nube-incendiaria/">Nube
+                            Incendiaria</a></td>
+                    <td>Conjuración</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/nemesis-inexorable/">Némesis
+                            Inexorable</a></td>
+                    <td>Ilusión</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/ojo-arcano/">Ojo
+                            Arcano</a></td>
+                    <td>Adivinación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/onda-atronadora/">Onda
+                            Atronadora</a></td>
+                    <td>Evocación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/orden-imperiosa/">Orden
+                            Imperiosa</a></td>
+                    <td>Encantamiento</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V</td>
+                    <td>1 ronda</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/orientacion-divina/">Orientación
+                            Divina</a></td>
+                    <td>Adivinación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/oscuridad/">Oscuridad</a>
+                    </td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/palabra-curativa/">Palabra
+                            Curativa</a></td>
+                    <td>Evocación</td>
+                    <td>1</td>
+                    <td>Acción Adicional</td>
+                    <td>60 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/palabra-curativa-en-grupo/">Palabra
+                            Curativa en Grupo</a></td>
+                    <td>Evocación</td>
+                    <td>3</td>
+                    <td>Acción Adicional</td>
+                    <td>60 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/palabra-de-poder-aturdidor/">Palabra de
+                            Poder Aturdidor</a></td>
+                    <td>Encantamiento</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/palabra-de-poder-mortal/">Palabra de Poder
+                            Mortal</a></td>
+                    <td>Encantamiento</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>50 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/palabra-de-regreso/">Palabra de
+                            Regreso</a></td>
+                    <td>Conjuración</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>5 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/palabra-divina/">Palabra
+                            Divina</a></td>
+                    <td>Evocación</td>
+                    <td>7</td>
+                    <td>Acción Adicional</td>
+                    <td>30 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/pasar-sin-dejar-rastro/">Pasar Sin Dejar
+                            Rastro</a></td>
+                    <td>Abjuración</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/paso-brumoso/">Paso
+                            Brumoso</a></td>
+                    <td>Conjuración</td>
+                    <td>2</td>
+                    <td>Acción Adicional</td>
+                    <td>Personal</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/pauta-hipnotica/">Pauta
+                            Hipnótica</a></td>
+                    <td>Ilusión</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/perdicion/">Perdición</a>
+                    </td>
+                    <td>Encantamiento</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/piel-de-corteza/">Piel de
+                            Corteza</a></td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/piel-de-piedra/">Piel de
+                            Piedra</a></td>
+                    <td>Abjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/plaga-de-insectos/">Plaga
+                            de Insectos</a></td>
+                    <td>Conjuración</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>300 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/plegaria-de-curacion/">Plegaria de
+                            Curación</a></td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>10 minutos</td>
+                    <td>30 pies</td>
+                    <td>V </td>
+                    <td>Instantáneo </td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/polimorfar/">Polimorfar</a></td>
+                    <td>Transmutación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/polimorfar-verdadero/">Polimorfar
+                            Verdadero</a></td>
+                    <td>Transmutación</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/presciencia/">Presciencia</a></td>
+                    <td>Adivinación</td>
+                    <td>9</td>
+                    <td>1 minuto</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/prestidigitacion/">Prestidigitación</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>10 pies</td>
+                    <td>V S</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/proteccion-contra-el-mal-y-el-bien/">Protección
+                            Contra el Mal y el Bien</a></td>
+                    <td>Abjuración</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/proteccion-contra-el-veneno/">Protección
+                            Contra el Veneno</a></td>
+                    <td>Abjuración</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/proteccion-contra-la-energia/">Protección
+                            Contra la Energía</a></td>
+                    <td>Abjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/proyeccion-astral/">Proyección Astral</a>
+                    </td>
+                    <td>Nigromancia</td>
+                    <td>9</td>
+                    <td>1 hora</td>
+                    <td>10 pies</td>
+                    <td>V S M (1100po)</td>
+                    <td>Especial</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/proyectar-imagen/">Proyectar Imagen</a>
+                    </td>
+                    <td>Ilusión</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>500 millas</td>
+                    <td>V S M (5po)</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/proyectil-magico/">Proyectil Mágico</a>
+                    </td>
+                    <td>Evocación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/puerta-dimensional/">Puerta
+                            Dimensional</a></td>
+                    <td>Conjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>500 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/purificar-comida-y-bebida/">Purificar
+                            Comida y Bebida</a></td>
+                    <td>Transmutación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>100 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/quitar-maldicion/">Quitar
+                            Maldición</a></td>
+                    <td>Abjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/ralentizar/">Ralentizar</a></td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/rayo-abrasador/">Rayo
+                            Abrasador</a></td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/rayo-de-debilitamiento/">Rayo de
+                            Debilitamiento</a></td>
+                    <td>Nigromancia</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/rayo-de-escarcha/">Rayo de
+                            Escarcha</a></td>
+                    <td>Evocación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/rayo-de-fuego/">Rayo de
+                            Fuego</a></td>
+                    <td>Evocación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/rayo-de-luna/">Rayo de
+                            Luna</a></td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración </td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/rayo-guia/">Rayo Guía</a>
+                    </td>
+                    <td>Evocación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>1 ronda</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/rayo-solar/">Rayo
+                            Solar</a></td>
+                    <td>Evocación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/reanimar-a-los-muertos/">Reanimar a los
+                            Muertos</a></td>
+                    <td>Nigromancia</td>
+                    <td>3</td>
+                    <td>1 minuto</td>
+                    <td>10 minutos</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/recado/">Recado</a></td>
+                    <td>Evocación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Ilimitado</td>
+                    <td>V S M</td>
+                    <td>1 ronda</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/recluir/">Recluir</a></td>
+                    <td>Transmutación</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M (5000po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/reencarnar/">Reencarnar</a></td>
+                    <td>Transmutación</td>
+                    <td>5</td>
+                    <td>1 hora</td>
+                    <td>Toque</td>
+                    <td>V S M (1000po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/regenerar/">Regenerar</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>7</td>
+                    <td>1 minuto</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/relampago-zigzagueante/">Relámpago
+                            Zigzagueante</a></td>
+                    <td>Evocación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/remendar/">Remendar</a>
+                    </td>
+                    <td>Transmutación</td>
+                    <td>0</td>
+                    <td>1 minuto</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/remover-tierra/">Remover
+                            Tierra</a></td>
+                    <td>Transmutación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/represion-infernal/">Represión
+                            Infernal</a></td>
+                    <td>Evocación</td>
+                    <td>1</td>
+                    <td>Reacción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/resistencia/">Resistencia</a></td>
+                    <td>Abjuración</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/respirar-bajo-el-agua/">Respirar Bajo el
+                            Agua</a></td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/restablecimiento-mayor/">Restablecimiento
+                            Mayor</a></td>
+                    <td>Abjuración</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M (100po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/restablecimiento-menor/">Restablecimiento
+                            Menor</a></td>
+                    <td>Abjuración</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/resurreccion/">Resurrección</a></td>
+                    <td>Nigromancia</td>
+                    <td>7</td>
+                    <td>1 hora</td>
+                    <td>Toque</td>
+                    <td>V S M (1000po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/resurreccion-verdadera/">Resurrección
+                            Verdadera</a></td>
+                    <td>Nigromancia</td>
+                    <td>9</td>
+                    <td>1 hora</td>
+                    <td>Toque</td>
+                    <td>V S M (25000po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/retirada-expeditiva/">Retirada
+                            Expeditiva</a></td>
+                    <td>Transmutación</td>
+                    <td>1</td>
+                    <td>Acción Adicional</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/revivificar/">Revivificar</a></td>
+                    <td>Nigromancia</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M (300po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/revivir-a-los-muertos/">Revivir a los
+                            Muertos</a></td>
+                    <td>Nigromancia</td>
+                    <td>5</td>
+                    <td>1 hora </td>
+                    <td>Toque</td>
+                    <td>V S M (500po)</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/rociada-de-color/">Rociada
+                            de Color</a></td>
+                    <td>Ilusión</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>1 ronda</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/rociada-prismatica/">Rociada
+                            Prismática</a></td>
+                    <td>Evocación</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/rociar-veneno/">Rociar
+                            Veneno</a></td>
+                    <td>Conjuración</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>10 pies</td>
+                    <td>V S </td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/rafaga-de-viento/">Ráfaga
+                            de Viento</a></td>
+                    <td>Evocación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/sacralizar/">Sacralizar</a></td>
+                    <td>Evocación</td>
+                    <td>5</td>
+                    <td>24 horas</td>
+                    <td>Toque</td>
+                    <td>V S M (1000po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/salpicadura-de-acido/">Salpicadura de
+                            Ácido</a></td>
+                    <td>Conjuración</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/salto/">Salto</a></td>
+                    <td>Transmutación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/sanar/">Sanar</a></td>
+                    <td>Evocación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/sanar-en-grupo/">Sanar en
+                            Grupo</a></td>
+                    <td>Evocación</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/sanctasanctorum-privado/">Sanar en
+                            Grupo</a></td>
+                    <td>Abjuración</td>
+                    <td>4</td>
+                    <td>10 minutos</td>
+                    <td>120 pies</td>
+                    <td>V S M</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/santuario/">Santuario</a>
+                    </td>
+                    <td>Abjuración</td>
+                    <td>1</td>
+                    <td>Acción Adicional</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/semiplano/">Semiplano</a>
+                    </td>
+                    <td>Conjuración</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>S</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/silencio/">Silencio</a>
+                    </td>
+                    <td>Ilusión</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/similitud/">Similitud</a>
+                    </td>
+                    <td>Ilusión</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/simulacro/">Simulacro</a>
+                    </td>
+                    <td>Ilusión</td>
+                    <td>7</td>
+                    <td>12 horas</td>
+                    <td>Toque</td>
+                    <td>V S M (1500po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/sirviente-invisible/">Sirviente
+                            Invisible</a></td>
+                    <td>Conjuración</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/sonar/">Soñar</a></td>
+                    <td>Ilusión</td>
+                    <td>5</td>
+                    <td>1 minuto</td>
+                    <td>Especial</td>
+                    <td>V S M</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/sugestion/">Sugestión</a>
+                    </td>
+                    <td>Encantamiento</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/sugestion-en-grupo/">Sugestión en
+                            Grupo</a></td>
+                    <td>Encantamiento</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V M</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/simbolo/">Símbolo</a></td>
+                    <td>Abjuración</td>
+                    <td>7</td>
+                    <td>1 minuto</td>
+                    <td>Toque</td>
+                    <td>V S M (1000po)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/taumaturgia/">Taumaturgia</a></td>
+                    <td>Transmutación</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V</td>
+                    <td>1 minuto</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/telarana/">Telaraña</a>
+                    </td>
+                    <td>Conjuración</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/telequinesis/">Telequinesis</a></td>
+                    <td>Transmutación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/teleportar/">Teleportar</a></td>
+                    <td>Conjuración</td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>10 pies</td>
+                    <td>V</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/tentaculos-negros/">Tentáculos Negros</a>
+                    </td>
+                    <td>Conjuración</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>90 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/terremoto/">Terremoto</a>
+                    </td>
+                    <td>Evocación</td>
+                    <td>8</td>
+                    <td>1 acción</td>
+                    <td>500 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/terreno-alucinatorio/">Terreno
+                            Alucinatorio</a></td>
+                    <td>Ilusión</td>
+                    <td>4</td>
+                    <td>10 minutos</td>
+                    <td>300 pies</td>
+                    <td>V S M</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/terribles-carcajadas/">Terribles
+                            Carcajadas</a></td>
+                    <td>Encantamiento</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/toque-helado/">Toque
+                            Helado</a></td>
+                    <td>Nigromancia</td>
+                    <td>0</td>
+                    <td>1 acción</td>
+                    <td>120 pies</td>
+                    <td>V S</td>
+                    <td>1 ronda</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/toque-vampirico/">Toque
+                            Vampírico</a></td>
+                    <td>Nigromancia</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/tormenta-de-aguanieve/">Tormenta de
+                            Aguanieve</a></td>
+                    <td>Conjuración</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S M</td>
+                    <td>Concentración </td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/tormenta-de-fuego/">Tormenta de Fuego</a>
+                    </td>
+                    <td>Evocación </td>
+                    <td>7</td>
+                    <td>1 acción</td>
+                    <td>150 pies</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/tormenta-de-hielo/">Tormenta de Hielo</a>
+                    </td>
+                    <td>Evocación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>300 pies</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/tormenta-de-venganza/">Tormenta de
+                            Venganza</a></td>
+                    <td>Conjuración</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>Vista</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/transformar-piedra/">Transformar
+                            Piedra</a></td>
+                    <td>Transmutación</td>
+                    <td>4</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/transformarse/">Transformarse</a></td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/transmigracion/">Transmigración</a></td>
+                    <td>Nigromancia</td>
+                    <td>6</td>
+                    <td>1 minuto</td>
+                    <td>Personal</td>
+                    <td>V S M (500)</td>
+                    <td>Disipar</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/tromba-de-meteoritos/">Tromba de
+                            Meteoritos</a></td>
+                    <td>Evocación</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>1 milla</td>
+                    <td>V S</td>
+                    <td>Instantáneo</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/truco-de-la-cuerda/">Truco
+                            de la Cuerda</a></td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/umbral/">Umbral</a></td>
+                    <td>Conjuración</td>
+                    <td>9</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S M (5000po)</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/ver-lo-invisible/">Ver lo
+                            Invisible</a></td>
+                    <td>Adivinación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/viajar-mediante-plantas/">Viajar Mediante
+                            Plantas</a></td>
+                    <td>Conjuración</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>10 pies</td>
+                    <td>V S</td>
+                    <td>1 ronda</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/vision-en-la-oscuridad/">Visión en la
+                            Oscuridad</a></td>
+                    <td>Transmutación</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>8 horas</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/vision-verdadera/">Visión
+                            Verdadera</a></td>
+                    <td>Adivinación</td>
+                    <td>6</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M (25po)</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/volar/">Volar</a></td>
+                    <td>Transmutación</td>
+                    <td>3</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/vinculo-custodio/">Vínculo
+                            Custodio</a></td>
+                    <td>Abjuración</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M (100po)</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/vinculo-telepatico/">Vínculo
+                            Telepático</a></td>
+                    <td>Adivinación</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>30 pies</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+<a href="https://www.enciclopediadnd.es/reglas/magia/zancada-arborea/">Zancada
+                            Arbórea</a></td>
+                    <td>Conjuración</td>
+                    <td>5</td>
+                    <td>1 acción</td>
+                    <td>Personal</td>
+                    <td>V S</td>
+                    <td>Concentración</td>
+                </tr>
+                <tr>
+                    <td>
+<a
+                            href="https://www.enciclopediadnd.es/reglas/magia/zancada-prodigiosa/">Zancada
+                            Prodigiosa</a></td>
+                    <td>Transmutación</td>
+                    <td>1</td>
+                    <td>1 acción</td>
+                    <td>Toque</td>
+                    <td>V S M</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.enciclopediadnd.es/reglas/magia/zona-de-verdad/">Zona de Verdad</a></td>
+                    <td>Encantamiento</td>
+                    <td>2</td>
+                    <td>1 acción</td>
+                    <td>60 pies</td>
+                    <td>V S</td>
+                    <td>10 minutos</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr class="wp-block-separator is-style-dots"></hr>
+
+        <div class="spell" id="abrir">
+            <h2>Abrir</h2>
+            <h4>Nivel 2, Transmutación</h4>
+            <p><b>Tiempo de lanzamiento:</b> 1 acción</p>
+             <p><b>Alcance:</b> 60 pies</p>
+             <p><b>Componentes:</b> V</p>
+             <p><b>Duración:</b> Instantánea</p>
+             <p>Elige un objeto que puedas ver dentro del alcance. El objeto puede ser una puerta, una caja, un cofre, unas esposas, un candado u otro objeto que evite el acceso por medios mágicos o mundanos.</p>
+             <p>Un objetivo retenido, atrapado o bloqueado por una cerradura mundana se libera. Si el objetivo tiene varias cerraduras, solo una de ellas se abre.</p>
+             <p>Si eliges un objetivo que está retenido con <a href="#cerradura_arcana" target="_blank">Cerradura arcana</a>, ese conjuro se anula durante 10 minutos, durante los cuales el objetivo se puede abrir y cerrar con normalidad.</p>
+             <p>Cuando lanzas este conjuro, se oye un fuerte golpe hasta una distancia de 300 pies que surge del objetivo.</p>
+        </div>
+
+        <hr class="wp-block-separator is-style-dots"></hr>
+
+    </div>
+</body>
+
+</html>

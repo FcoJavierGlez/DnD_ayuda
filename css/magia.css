@@ -1,0 +1,26 @@
+#magia_filter {
+    margin: 10px;
+}
+
+th {
+    background-color:#084298 !important;
+    color: white;
+}
+
+.spell h2, h4 {
+    text-align: center;
+    padding: 0;
+}
+
+.spell h2 {
+    font-size: 2.5rem !important;
+}
+
+.spell a {
+    color: var(--bs-link-color);
+    font-weight: bold;
+}
+
+.spell a:hover {
+    color: blue;
+}
